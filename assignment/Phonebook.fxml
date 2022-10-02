@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="assignment.ControllerPhone" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="table" layoutX="53.0" layoutY="78.0" prefHeight="200.0" prefWidth="227.0">
+        <columns>
+          <TableColumn fx:id="nameCl" prefWidth="115.0" text="Name" />
+          <TableColumn fx:id="phoneCL" prefWidth="111.0" text="PhoneNumber" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtName" layoutX="336.0" layoutY="86.0" promptText="Name" />
+      <TextField fx:id="txtPhone" layoutX="336.0" layoutY="147.0" promptText="PhoneNumber" />
+      <Button onAction="#submit" layoutX="397.0" layoutY="230.0" mnemonicParsing="false" text="Submit" />
+   </children>
+</Pane>
